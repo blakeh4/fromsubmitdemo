@@ -1,0 +1,127 @@
+body{
+    background: linear-gradient( #cfccca, #494948);
+    font-family: 'Proza Libre', sans-serif;
+    margin: o;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+.geekcb-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100vm;
+}
+
+.geekcb-card-login {
+    background-color:rgba(249, 247, 247, 0.258);
+    border-radius: 5px;
+    box-shadow: 0 10px rgba(88, 95, 93, 0.6);
+    padding: 30px;
+    width: 300px;
+}
+
+.geekcb-card-title {
+    color: #fff;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.geekcb-form-login {
+    margin-bottom:0;
+}
+
+.geekcb-field-container {
+    margin-bottom: 30px;
+    position: relative
+}
+
+.geekcb-field {
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: rgb(8, 8, 8);
+    font-size: 19px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 40px;
+    outline: 0;
+    padding: 10px 15px 8px;
+    width: 100%;
+
+}
+
+.geekcb-field-label {
+    border-radius: 10px;
+    color:white;
+    left: 0;
+    line-height: 14px;
+    padding:2px 12px;
+    pointer-events: none;
+    position: absolute;
+    top: 12px;
+    transform: translateY(0);
+    transition: color 50ms, background-color 100ms, transform 200ms, font-size 200ms;
+    transform-box: auto;
+
+}
+
+
+.geekcb-field:focus + .geekcb-field-label,
+.geek-field:placeholder-shown + .geekcb-field-label {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transform: translateX(5px)translateY(-27px);
+    font-size: .77rem;
+    transition: transform 200ms, font-size 200ms, background-color 1s, color 1.2s;
+}
+
+
+
+.geekcb-btn {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    box-sizing: border-box;
+    color:black;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 200ms;
+    width: 100%;
+}
+
+.geekcb-btn:hover {
+    background-color: gray;
+    border-color: white;
+    color: white;
+}
+
+.geekcb-btn:active {
+    background-color: white;
+    border-color: none;
+    color: green;
+}
